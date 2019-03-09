@@ -1,7 +1,7 @@
 package cart;
 
 public class ValuePromotion implements IPromotion{
-	
+
 	@Override
 	public boolean CanCalculate(Cart cart) {
 		double koszykBrutto = cart.totalPriceOfProducts();
@@ -21,6 +21,6 @@ public class ValuePromotion implements IPromotion{
 	@Override
 	public String toString() {
 		return "ValuePromotion [5% off]";
-	}
+}
 	
 }

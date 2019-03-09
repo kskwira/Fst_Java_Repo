@@ -42,7 +42,8 @@ package cart;
 		}
 		@Override
 		public String toString() {
-			return "Cart [\nitems=" + items + "\npromotions=" + promotions + "\npromotionSumOfProducts="
-					+ promotionSumOfProducts + "]";
-		}
+			return "Cart [\n\titems=" + items 
+					+ "\n\tpromotions=" + promotions 
+					+ "\n\tpromotionSumOfProducts=" + promotionSumOfProducts + "]";
+	}
 	}

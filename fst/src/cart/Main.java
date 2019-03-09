@@ -27,6 +27,7 @@ public class Main {
 		Cart cart = new Cart();
 		cart.addProduct(new Product("Kartofle", 200))
 		    .addProduct(new Product("Gazeta", 100))
+		    .addProduct(new Product("Maslo", 300))
 		    .addPromotion(new ValuePromotion())
 		    .applyPromotions();
 

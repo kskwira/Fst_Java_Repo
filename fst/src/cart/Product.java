@@ -1,10 +1,8 @@
 package cart;
 
-public class Product 
-{
+public class Product {
 	private String name;
 	private double price;
-	
 	
 	public String getName() {
 		return name;
@@ -18,17 +16,16 @@ public class Product
 	public void setPrice(double price) {
 		this.price = price;
 	}
+
 	public Product(String name, double price) {
 		super();
 		this.name = name;
 		this.price = price;
 	}
+	
 	@Override
 	public String toString() {
-		return "Product [name=" + name + ", price=" + price + "]";
-	}
-	
-	
-	
+		return "Product [" + name + ", " + price + "]";
+}
 
 }

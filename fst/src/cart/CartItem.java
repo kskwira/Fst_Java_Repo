@@ -4,7 +4,7 @@ public class CartItem {
 	private Product product;
 	private double currentPrice;
 	
-	public CartItem (Product product){
+	public CartItem(Product product){
 		this.product = product;
 		this.currentPrice = product.getPrice();
 	}
@@ -27,9 +27,8 @@ public class CartItem {
 
 	@Override
 	public String toString() {
-		return "CartItem [product=" + product + ", currentPrice="
-				+ currentPrice + "]";
-	}
+		return "CartItem [" + product + ", " + currentPrice + "]";
+}
 
 	
 	
