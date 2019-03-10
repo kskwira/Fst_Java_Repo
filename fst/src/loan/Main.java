@@ -35,6 +35,11 @@ public class Main {
 		Date d = new GregorianCalendar(2018, 02, 20).getTime();
 		appl.setDateOfBirth(d);
 		System.out.println(appl);
+		
+		Applicant appl_2 = new Applicant ("Krzysztof", "Skwira", "84090903395", "11111", "11111", "M", new GregorianCalendar(1984, 9, 9).getTime());
+		System.out.println(appl_2);
+		
+		
 	}
 
 }
