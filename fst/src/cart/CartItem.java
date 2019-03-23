@@ -1,8 +1,10 @@
 package cart;
 
 public class CartItem {
+	
 	private Product product;
 	private double currentPrice;
+	
 	
 	public CartItem(Product product){
 		this.product = product;
@@ -24,12 +26,5 @@ public class CartItem {
 	public void setCurrentPrice(double currentPrice) {
 		this.currentPrice = currentPrice;
 	}
-
-	@Override
-	public String toString() {
-		return "CartItem [" + product + ", " + currentPrice + "]";
-}
-
-	
 	
 }

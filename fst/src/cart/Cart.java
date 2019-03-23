@@ -3,22 +3,28 @@ package cart;
 	import java.util.ArrayList;
 
 	public class Cart {
+		
 		ArrayList<CartItem> items = new ArrayList<>();
 		ArrayList<IPromotion> promotions = new ArrayList<>();
 		double promotionSumOfProducts = 0;
 		
 		public double totalPriceOfProducts(){
+			
 			double sum = 0;
-			for(CartItem it : items)
-				sum += it.getProduct().getPrice();
+			for(CartItem item : items){
+				sum += item.getProduct().getPrice();
+			}
 			return sum;
 		}
+		
 		public double totalPriceOfDiscountedProducts(){
 			double sum = 0;
-			for(CartItem it : items)
-				sum += it.getCurrentPrice();
+			for(CartItem item : items){
+				sum += item.getCurrentPrice();
+			}
 			return sum;
 		}
+		
 		public ArrayList<CartItem> getItems() {
 			return items;
 		}
