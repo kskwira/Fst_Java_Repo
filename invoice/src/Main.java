@@ -6,10 +6,12 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Product product = new Product("ABC123", "TV", 1000.0);
-		InvoicePosition position = new InvoicePosition(product);
 		Invoice invoice = new Invoice();
-		invoice.addPosition(position);
+		invoice.addPosition(new Product("ABC123", "Tv", 1000));
+		invoice.addPosition(new Product("ABC123", "Tv", 1000));
+		invoice.addPosition(new Product("CBA321", "Radio", 500));
+		invoice.addPosition(new Product("ABC123", "Tv", 1000));
+		invoice.addPosition(new Product("CBA321", "Radio", 500));
 		printoutInvoice(invoice);
 	}
 		
