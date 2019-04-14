@@ -3,8 +3,6 @@ package model;
 	import java.util.ArrayList;
 
 import discounts.ICanApplyDiscount;
-import discounts.PercentDiscount;
-import discounts.FreeCupDiscount;
 
 
 	public class Cart {

@@ -3,8 +3,6 @@ package model;
 import java.util.ArrayList;
 import discounts.FreeCupDiscount;
 import discounts.PercentDiscount;
-import discounts.ThirdProductFree;
-
 
 public class Main {
 	
@@ -13,8 +11,6 @@ public class Main {
 		cart.applyDiscount(new FreeCupDiscount());
 		printCart(cart);
 		cart.applyDiscount(new PercentDiscount(0.05));
-		printCart(cart);
-		cart.applyDiscount(new ThirdProductFree());
 		printCart(cart);
 		}
 	
