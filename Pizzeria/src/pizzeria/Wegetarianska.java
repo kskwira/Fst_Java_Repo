@@ -1,7 +1,7 @@
 package pizzeria;
 
 public class Wegetarianska extends Pizza {
-
+	
 	public Wegetarianska() {
 		ostrosc = 0;
 		opis = "Wegetarianska (papryka, pomidor, ser)";

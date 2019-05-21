@@ -1,7 +1,7 @@
 package pizzeria;
 
 public class Pepperoni extends Pizza {
-	
+		
 	public Pepperoni() {
 		ostrosc = 5;
 		opis = "Pepperoni (salami, papryka ostra, cebula, ser)";

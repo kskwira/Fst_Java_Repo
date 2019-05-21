@@ -1,7 +1,7 @@
 package pizzeria;
 
 public class Capricciosa extends Pizza {
-
+	
 	public Capricciosa() {
 		ostrosc = 1;
 		opis = "Capricciosa (pieczarki, sos, szynka)";

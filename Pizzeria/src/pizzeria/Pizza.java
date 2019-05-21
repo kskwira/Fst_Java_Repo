@@ -2,7 +2,7 @@ package pizzeria;
 
 public abstract class Pizza {
 	
-	static String opis = "";
+	String opis = "";
 	int ostrosc = 0;
 	String rozmiar = "";
 	String adres = "";

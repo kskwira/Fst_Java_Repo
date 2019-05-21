@@ -1,7 +1,7 @@
 package pizzeria;
 
 public class Hawajska extends Pizza {
-	
+		
 	public Hawajska() {
 		ostrosc = 0;
 		opis = "Hawajska (szynka, ananas, ser)";
